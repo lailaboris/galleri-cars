@@ -1,1 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.TileImage{
+    width: 33.1%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+    
+}
+#carGallery{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 120px;
+}
+#bigImage{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+body{
+    background-color: rgb(75, 70, 70);
+    color: white;
+}
+#BigImageContainer{
+    width: 45%;
+    min-width: 400px;
+    
+}
+
+#TilesContainer{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    flex-wrap: wrap;
+    column-gap: 1px;
+    min-width: 400px;  
+}
+#TilesContainer img:hover{
+    outline: 1px #fff solid;
+}
+#galleryArray{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
